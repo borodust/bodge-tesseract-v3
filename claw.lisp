@@ -1,4 +1,4 @@
-(claw:c-include "bodge_tesseract.h" bodge-tesseract
+(claw:c-include "bodge_tesseract.h" bodge-tesseract-v3
   :in-package (:%tesseract :%tess)
   :sysincludes (:tesseract-api-includes :tesseract-util-includes)
   :include-definitions ("Tess[A-Z]+\\w*")

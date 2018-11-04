@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/borodust/bodge-tesseract.svg)](https://travis-ci.org/borodust/bodge-tesseract) [![Build status](https://ci.appveyor.com/api/projects/status/yi6fseaw1acx0jg4?svg=true)](https://ci.appveyor.com/project/borodust/bodge-tesseract)
+[![Build Status](https://travis-ci.org/borodust/bodge-tesseract-v3.svg)](https://travis-ci.org/borodust/bodge-tesseract-v3) [![Build status](https://ci.appveyor.com/api/projects/status/f296j05mqw14ypu3?svg=true)](https://ci.appveyor.com/project/borodust/bodge-tesseract-v3)
 
 
 # Tesseract OCR library wrapper for Common Lisp
 
-Wrapper over [`Tesseract OCR`](https://github.com/tesseract-ocr/tesseract) library.
+Wrapper over [`Tesseract OCR`](https://github.com/tesseract-ocr/tesseract) library version 3.
 
 ## Install
 
@@ -13,7 +13,7 @@ Wrapper over [`Tesseract OCR`](https://github.com/tesseract-ocr/tesseract) libra
 (ql-dist:install-dist "http://bodge.borodust.org/dist/org.borodust.bodge.txt")
 
 ;; load the wrapper
-(ql:quickload :bodge-tesseract)
+(ql:quickload :bodge-tesseract-v3)
 ```
 
 ## Usage
@@ -23,6 +23,6 @@ Wrapper over [`Tesseract OCR`](https://github.com/tesseract-ocr/tesseract) libra
 ## Example
 
 ```lisp
-(ql:quickload '(tesseract-blob bodge-tesseract))
+(ql:quickload '(tesseract-blob-v3 bodge-tesseract-v3))
 (%tess:version)
 ```

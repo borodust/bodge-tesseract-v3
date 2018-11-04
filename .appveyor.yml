@@ -4,7 +4,7 @@ image:
 environment:
   global:
     NAME: tesseract
-    ASDF_SYSTEM: bodge-tesseract
+    ASDF_SYSTEM: bodge-tesseract-v3
     MSYS2_DIR: msys64
   matrix:
   - platform: x64

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 name=tesseract
-repository_url=https://github.com/borodust/bodge-tesseract
+repository_url=https://github.com/borodust/bodge-tesseract-v3
 
 
 if [[ -z  $1 ]] ; then
